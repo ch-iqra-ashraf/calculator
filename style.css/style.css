@@ -21,8 +21,8 @@ h1 {
 
 .container {
     background-color: #C78283;
-    height: 75vh;
-    width: 25vw;
+    /* height: 75vh;
+    width: 25vw; */
     border-radius: 1rem;
     display: flex;
     justify-content: center;
@@ -45,6 +45,7 @@ h1 {
     font-size: 1.45rem;
     font-weight: 600;
     color: #40252e;
+    text-align: right;
 }
 
 .buttons {

@@ -20,10 +20,14 @@ operatorBtn.forEach((operator) => {
     });
 });
 
+decimalBtn.addEventListener("click", () => {
+    let current = displayResult.value;
+    displayResult.value = `${current}${decimal.textContent}`;
+});
+
 delBtn.addEventListener("click", () => {
     displayResult.value = displayResult.value.slice(0, -1);
 });
-
 
 equalBtn.addEventListener("click", () => {
     let result = eval(displayResult.value);

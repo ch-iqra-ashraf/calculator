@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css/style.css">
     <link rel="stylesheet" href="style.css/mobilestyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
 </head>
 
 <body>
     <h1>Calculator</h1>
-    <div class="container">
+    <div class="container w-80 md:w-83 lg:w-90">
         <div class="btn-container">
-            <input type="text" id="display" dir="rtl">
+            <input type="text" id="display">
             
             <div class="buttons">
                 <button id="clear">AC</button>
@@ -32,7 +34,7 @@
                 <button class="digit">2</button>
                 <button class="digit">3</button>
                 <button class="operator">+</button>
-                <button class="digit" id="button-0">0</button>
+                <button class="digit">0</button>
                 <button id="decimal">.</button>
                 <button id="equal">=</button>
             </div>

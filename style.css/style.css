@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #F3D9DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #744253;
+    font-family: cursive;
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.container {
+    background-color: #C78283;
+    height: 75vh;
+    width: 25vw;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    height: 60px;
+    width: 300px;
+    border: 1px solid #F3D9DC;
+    margin: 1rem;
+    background-color: #D7BEA8;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.operator {
+    width: 60px;
+    height: 60px;
+    background-color: #D7BEA8;
+    gap: 1rem;
+    box-shadow: #744253;
+    font-size: 1.45rem;
+    font-weight: 600;
+    border: none;
+    border: 0.35px solid #744253;
+    color: #40252e;
+}
+
+.digit {
+    width: 60px;
+    height: 60px;
+    background-color: #D7BEA8;
+    gap: 1rem;
+    box-shadow: #744253;
+    font-size: 1.45rem;
+    font-weight: 600;
+    border: none;
+    border: 0.35px solid #744253;
+    color: #40252e;
+}
+
+#clear {
+    width: 60px;
+    height: 60px;
+    background-color: #D7BEA8;
+    gap: 1rem;
+    box-shadow: #744253;
+    font-size: 1.45rem;
+    font-weight: 600;
+    border: none;
+    border: 0.35px solid #744253;
+    color: #40252e;
+}
+
+.decimal {
+    width: 60px;
+    height: 60px;
+    background-color: #D7BEA8;
+    gap: 1rem;
+    box-shadow: #744253;
+    font-size: 1.45rem;
+    font-weight: 600;
+    border: none;
+    border: 0.35px solid #744253;
+    color: #40252e;
+}
+
+#equal {
+    width: 132px;
+    height: 60px;
+    background-color: #D7BEA8;
+    gap: 1rem;
+    box-shadow: #744253;
+    font-size: 1.45rem;
+    font-weight: 600;
+    border: 0.35px solid #744253;
+    color: #40252e;
+}

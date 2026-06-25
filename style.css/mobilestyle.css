@@ -1,0 +1,46 @@
+@media (min-width:320px) and (max-width:426px) {
+.container {
+    height: 40vh;
+    width: 70vw;
+}
+
+#display{
+     height: 60px;
+    width: 240px;
+}
+
+.operator {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.digit {
+   width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+    font-weight: 500;  
+}
+
+#clear {
+ width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.decimal{
+ width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#equal{
+     width: 95px;
+    height: 40px;
+    font-size: 1.25rem;
+    font-weight: 500;
+} 
+
+}

@@ -42,6 +42,9 @@ h1 {
     border: 1px solid #F3D9DC;
     margin: 1rem;
     background-color: #D7BEA8;
+    font-size: 1.45rem;
+    font-weight: 600;
+    color: #40252e;
 }
 
 .buttons {
@@ -92,7 +95,7 @@ h1 {
     color: #40252e;
 }
 
-.decimal {
+#decimal, #delete {
     width: 60px;
     height: 60px;
     background-color: #D7BEA8;

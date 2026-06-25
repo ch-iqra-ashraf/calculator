@@ -1,5 +1,9 @@
 @media (min-width:320px) and (max-width:426px) {
-.container {
+
+h1 {
+    margin-bottom: 3rem;
+}
+    .container {
     height: 50vh;
     width: 70vw;
 }

@@ -7,36 +7,40 @@
     <link rel="stylesheet" href="style.css/style.css">
     <link rel="stylesheet" href="style.css/mobilestyle.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
 </head>
 
 <body>
-    <h1>Calculator</h1>
-    <div class="container w-80 md:w-83 lg:w-90">
-        <div class="btn-container">
-            <input type="text" id="display">
-            
-            <div class="buttons">
-                <button id="clear">AC</button>
-                <button id="delete">DEL</button>
-                <button class="operator">%</button>
-                <button class="operator">/</button>
-                <button class="digit">7</button>
-                <button class="digit">8</button>
-                <button class="digit">9</button>
-                <button class="operator">*</button>
-                <button class="digit">4</button>
-                <button class="digit">5</button>
-                <button class="digit">6</button>
-                <button class="operator">-</button>
-                <button class="digit">1</button>
-                <button class="digit">2</button>
-                <button class="digit">3</button>
-                <button class="operator">+</button>
-                <button class="digit">0</button>
-                <button id="decimal">.</button>
-                <button id="equal">=</button>
+    <div class="backgroundImg">
+        <img src="images/background.jpg" alt="background">
+
+        <h1>Calculator</h1>
+        <div class="container w-[220px] md:w-[330px] lg:w-[350px]">
+            <div class="btn-container">
+                <input type="text" id="display" readonly>
+                <div id="preview"></div>
+                <div class="buttons">
+                    <button id="clear">AC</button>
+                    <button id="brackets">( )</button>
+                    <button class="operator">%</button>
+                    <button class="operator">/</button>
+                    <button class="digit">7</button>
+                    <button class="digit">8</button>
+                    <button class="digit">9</button>
+                    <button class="operator">*</button>
+                    <button class="digit">4</button>
+                    <button class="digit">5</button>
+                    <button class="digit">6</button>
+                    <button class="operator">-</button>
+                    <button class="digit">1</button>
+                    <button class="digit">2</button>
+                    <button class="digit">3</button>
+                    <button class="operator">+</button>
+                    <button class="digit">0</button>
+                    <button id="decimal">.</button>
+                    <button id="delete">X</button>
+                    <button id="equal">=</button>
+                </div>
             </div>
         </div>
     </div>

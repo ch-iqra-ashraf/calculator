@@ -1,50 +1,39 @@
-@media (min-width:320px) and (max-width:426px) {
+@media (max-width: 767px) {
 
-h1 {
-    margin-bottom: 3rem;
-}
-    .container {
-    height: 50vh;
-    width: 70vw;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-#display{
-     height: 60px;
-    width: 240px;
-}
+    h1 {
+        margin-bottom: 3rem;
+    }
 
-.operator {
-    width: 40px;
-    height: 40px;
-    font-size: 1.25rem;
-    font-weight: 500;
-}
+    #display {
+        width: calc(100% - 2rem);
+        margin: 1rem auto 0 auto;
+        height: 50px;
+    }
 
-.digit {
-   width: 40px;
-    height: 40px;
-    font-size: 1.25rem;
-    font-weight: 500;  
-}
+    #preview {
+        width: calc(100% - 2rem);
+        margin: 0 auto 0.5rem auto;
+        height: 30px;
+    }
 
-#clear {
- width: 40px;
-    height: 40px;
-    font-size: 1.25rem;
-    font-weight: 500;
-}
-#decimal, #delete{
-    width: 40px;
-    height: 40px;
-    font-size: 1.25rem;
-    font-weight: 500;
-}
+    .operator,
+    .digit,
+    #decimal,
+    #delete,
+    #equal,
+    #brackets,
+    #clear {
+        width: 40px;
+        height: 40px;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
 
-#equal{
-     width: 95px;
-    height: 40px;
-    font-size: 1.25rem;
-    font-weight: 500;
-} 
 
 }
